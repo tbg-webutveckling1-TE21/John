@@ -13,11 +13,9 @@ color: black;
 main {
 display: flex;
 flex-direction: row;
-justify-content: space-between ;
+justify-content: space-evenly;
 flex-wrap: wrap;
-row-gap: 5px;
-column-gap: 5px;
-padding: 20px;¨
+padding: 20px;
 }
 main section {
 background-color: red;

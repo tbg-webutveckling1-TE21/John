@@ -3,12 +3,27 @@ table {
     border:2px black solid;
  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
  flex-wrap: wrap;
+ border-spacing: 5px;
 }
-
+th{
+font-size: x-large;
+font-family: Georgia, 'Times New Roman', Times, serif;
+height: 10px;
+column-gap: normal;
+}
 td {
     border: 1px black solid;
-    padding: 25px;
+    padding: 35px;
     flex-wrap: wrap;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
+    transition: 1s;
+    
+
 }
+tr:hover{
+font-size: xx-large;
+
+
+}
+
