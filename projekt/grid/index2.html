@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+<meta charset="utf-8">
+<title>Grid test 2</title>
+<style>
+.item1 {grid-area: 1/1/1/6;
+background-color: orange;}
+.item2 {grid-area: 2/1/3/1;
+background-color:blueviolet;}
+.item3{grid-area: 2/2/3/5 ;
+background-color: rgb(243, 255, 79);
+}
+.item4{grid-area: 2/5/4/5 ;
+background-color: yellow;
+}
+.item5{grid-area:3/1/3/5 ;
+background-color: orangered;
+}
+.grid-container{
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 20% 50% 20%;
+    display: grid;
+    margin: auto;
+  gap: 10px;
+width: 600px;
+height: 400px;
+
+
+}
+.grid-container > div {
+    text-align: start;
+font-size: 125%;
+padding-left: 20px;
+padding-top: 20px;
+}
+
+</style>
+</head>
+<body>
+     <div class="grid-container">
+        <div class="item1">Header</div>
+        <div class="item2">Menu</div>
+        <div class="item3"> <h1> Welcome!</h1> <br>Hi! content :)</div>
+        <div class="item4">Aside</div>
+        <div class="item5">Footer</div>
+</body>
+
+
+
+</html>
