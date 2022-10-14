@@ -1,0 +1,197 @@
+body{
+background: white;
+    font-family:sans-serif;
+padding: 0px;
+margin: 0px;
+}
+
+h2 {
+ font-weight: 100; 
+ font-size: 38px;  
+ color: purple;
+}
+
+h3 {
+    background: purple;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin: 0px;
+    margin-top: -5px;
+}
+.resmal_info {
+font-size: 0.9em;
+line-height: 1,6em;
+}
+
+.wrapper{
+ width: 90%;  
+ max-width: 960px; 
+ min-height: 600px;
+ background: white;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+header{
+    background:;
+    height: 150px;
+}
+
+.logo {
+background: ;
+width: 40%;
+float: left;
+}
+.logo img {
+    width: 100px;
+}
+nav.meny{
+    background:;
+    width: 60%;
+    float: right;
+    margin-top: 45px;
+}
+
+.imagesbar {
+    background: white;
+    background-image: url(../bilder/himmel.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 390px;
+}
+.flygplan {
+    width: 20%;
+    margin-top: 100px;
+    margin-left: 120px;
+ }
+  .resmal{
+    width: 32%;
+float: left;
+margin-right: 1%;
+}
+.resmal img {
+    width: 100%;
+}
+
+nav {}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    text-align: right;
+}
+nav li {
+    display: inline;
+    margin-left: 10px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+    font-size: 14px;
+    text-transform: uppercase;
+    background: white;
+    padding: 10px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+nav a:hover {
+  background-color: purple;
+color:white;
+}
+footer{
+
+    width: 100%;
+
+    height: 600px;
+
+    background-repeat: no-repeat;
+
+    background-color: #802082;
+
+    background-image: url(../bilder/footer.gif);
+
+    background-size: 100%;
+
+    padding-top: 130px;
+
+}
+h4{
+
+    background: #aa54acc5;
+
+    padding: 15px;
+
+    color: white;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
+    margin: 15px;
+
+    font-family: 'oswald', sans-serif;
+
+    margin-top: 3px;
+
+    margin-left: 0px;  
+
+}
+
+
+
+.h4_s{
+
+    float: right;
+
+}
+
+har snabbmeny
+
+
+.inner_footer{
+
+    width: 960px;
+
+    height: 300px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+
+
+}
+
+
+
+.footerbox{
+
+    width: 32%;
+
+    margin-left: 1%;
+
+    height: 300px;
+
+    float: left;
+
+    color: white;
+
+    font-size: 16px;
+
+}
+
+
+
+.footerbox img{
+
+    margin-right: 10px;
+
+}
